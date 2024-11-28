@@ -26,12 +26,6 @@ pipeline {
            }
        }
 
-       post {
-           always {
-               // Actions to take after pipeline run (e.g., cleanup, reports, etc.)
-               echo 'Pipeline finished.'
-           }
-       }
-   }
+
 
 }
